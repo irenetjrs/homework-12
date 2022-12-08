@@ -1,3 +1,13 @@
 *{
-   
+   box-sizing: border-box;
+}
+body{
+   margin: 0;
+}
+.first-screen{
+   background-image: url(/src/img/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 1400px;
+   height: 663px;
 }
