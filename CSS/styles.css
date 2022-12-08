@@ -2,12 +2,22 @@
    box-sizing: border-box;
 }
 body{
+   font-family: 'Roboto';
    margin: 0;
 }
+@font-face {
+	font-family: 'Sofia';
+   font-display: swap;
+	src: url('/src/fonts/Sofia.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
 .first-screen{
    background-image: url(/src/img/background.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   padding-top: 60px;
    width: 1400px;
    height: 663px;
 }
@@ -16,15 +26,24 @@ body{
    height: 91px;
    display: flex;
    justify-content: space-between;
-   padding: 60px 110px 512px 110px;
+   margin: 0 auto;
    align-items: center;
 }
 .logo{
    display: flex;
    width: 425.22px;
+   height: 91px;
+   text-align: left;
+   align-content: center;
+}
+.tooth{
+   width: 77.57px;
+   height: 91px;
+   margin-right: 7.43px;
 }
 .logo-text{
-   font-family: 'Sofia Sans';
+   height: 91px;
+   font-family: 'Sofia';
    font-style: normal;
    font-weight: 400;
    font-size: 38px;
@@ -34,21 +53,19 @@ body{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    column-gap: 25px;
-   width: 301px;
+   width: 350px;
    text-align: center;
-   margin-left: 228px;
-   margin-right: 303px;
+   font-family: 'Roboto';
+   font-size: 16px;
+   line-height: 19px;
 }
 a{
    text-decoration-line: none;
    color: black;
 }
-.link{
-   margin-left: 25px;
-}
-.phone{
-   display: inline-block;
-}
 .number{
    margin-left: 10px;
+}
+.language{
+   font-weight: 600;
 }
