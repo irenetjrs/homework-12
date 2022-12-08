@@ -11,3 +11,44 @@ body{
    width: 1400px;
    height: 663px;
 }
+.header{
+   width: 1180px;
+   height: 91px;
+   display: flex;
+   justify-content: space-between;
+   padding: 60px 110px 512px 110px;
+   align-items: center;
+}
+.logo{
+   display: flex;
+   width: 425.22px;
+}
+.logo-text{
+   font-family: 'Sofia Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 38px;
+   color: #46b1de;
+}
+.navigation{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 25px;
+   width: 301px;
+   text-align: center;
+   margin-left: 228px;
+   margin-right: 303px;
+}
+a{
+   text-decoration-line: none;
+   color: black;
+}
+.link{
+   margin-left: 25px;
+}
+.phone{
+   display: inline-block;
+}
+.number{
+   margin-left: 10px;
+}
