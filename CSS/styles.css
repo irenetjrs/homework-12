@@ -6,6 +6,31 @@ body{
    margin: 0px;
 }
 @media (max-width: 480px) {
+   .logo{
+      width: 183px;
+      height: 39.16px;
+   }
+   .logo-text{
+      font-size: 13px;
+   }
+   .navigation{
+      display: none;
+   }
+   .phone{
+      width: 127px;
+      height: 15px;
+   }
+   main{
+      margin: 0 auto;
+      text-align: center;
+   }
+   .img-lady{
+      position: absolute;
+      width: 208px;
+      height: 199px;
+      left: 48px;
+      top: 376px;
+   }
    .main-2{
       flex-wrap: nowrap;
       flex-direction: column;
