@@ -6,9 +6,9 @@ body{
    margin: 0px;
 }
 @media (max-width: 480px) {
-   .logo{
-      width: 183px;
-      height: 39.16px;
+   .tooth{
+      width: 33.39px;
+      height: 34.67px;
    }
    .logo-text{
       font-size: 13px;
@@ -31,8 +31,23 @@ body{
       left: 48px;
       top: 376px;
    }
+   .footer-1{
+      flex-direction: column;
+
+   }
    .main-2{
       flex-wrap: nowrap;
+      flex-direction: column;
+   }
+   .input-box{
+      flex-wrap: nowrap;
+      flex-direction: column;
+   }
+   .pictures{
+      flex-wrap: nowrap;
+      flex-direction: column;
+   }
+   .footer-2{
       flex-direction: column;
    }
    }
@@ -41,6 +56,7 @@ body{
          flex-wrap: nowrap;
          flex-direction: column;
       }
+   
       }
 @font-face {
 	font-family: 'Sofia';
@@ -376,9 +392,22 @@ input{
 }
 .footer-2{
    position: relative;
+   display: flex;
+   flex-direction: row;
    max-width: 1400px;
    height: 400px;
    background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+}
+.block-1{
+   display: flex;
+   border: #000000 solid 1px;
+   max-width: 700px;
+   height: 400px;
+}
+.block-2{
+   display: flex;
+   max-width: 700px;
+   height: 400px;
 }
 .tooth-2{
    display: flex;
