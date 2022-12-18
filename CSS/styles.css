@@ -5,7 +5,7 @@ body{
    font-family: 'Roboto', sans-serif;
    margin: 0px;
 }
-@media (max-width: 480px) {
+@media (max-width: 992px) {
    .tooth{
       width: 33.39px;
       height: 34.67px;
@@ -33,7 +33,6 @@ body{
    }
    .footer-1{
       flex-direction: column;
-
    }
    .main-2{
       flex-wrap: nowrap;
@@ -50,14 +49,53 @@ body{
    .footer-2{
       flex-direction: column;
    }
-   }
-   @media (max-width: 992px) {
+}
+@media (max-width: 480px) {
+      .tooth{
+         width: 33.39px;
+         height: 34.67px;
+      }
+      .logo-text{
+         font-size: 13px;
+      }
+      .navigation{
+         display: none;
+      }
+      .phone{
+         width: 127px;
+         height: 15px;
+      }
+      main{
+         margin: 0 auto;
+         text-align: center;
+      }
+      .img-lady{
+         position: absolute;
+         width: 208px;
+         height: 199px;
+         left: 48px;
+         top: 376px;
+      }
+      .footer-1{
+         flex-direction: column;
+      }
       .main-2{
          flex-wrap: nowrap;
          flex-direction: column;
       }
-   
+      .input-box{
+         flex-wrap: nowrap;
+         flex-direction: column;
       }
+      .pictures{
+         flex-wrap: nowrap;
+         flex-direction: column;
+      }
+      .footer-2{
+         flex-direction: column;
+      }
+}
+
 @font-face {
 	font-family: 'Sofia';
    font-display: swap;
@@ -418,7 +456,7 @@ input{
    left: 113px;
 }
 .tooth2-img{
-   max-max-width: 77.57px;
+   max-width: 77.57px;
    height: 80.56px; 
 }
 .tooth2-text{
@@ -434,7 +472,7 @@ input{
 }
 .contacts{
    display: flex;
-   max-max-width: 300px;
+   max-width: 300px;
    height: 300px;
    flex-direction: column;
    position: absolute;
