@@ -5,7 +5,8 @@ body{
    font-family: 'Roboto', sans-serif;
    margin: 0px;
 }
-@media (max-width: 992px) {
+@media screen and (min-width: 768px) 
+   and (max-width: 992px) {
    .tooth{
       width: 33.39px;
       height: 34.67px;
@@ -24,13 +25,13 @@ body{
       margin: 0 auto;
       text-align: center;
    }
-   .img-lady{
+   /* .img-lady{
       position: absolute;
       width: 208px;
       height: 199px;
       left: 48px;
       top: 376px;
-   }
+   } */
    .footer-1{
       flex-direction: column;
    }
@@ -50,7 +51,7 @@ body{
       flex-direction: column;
    }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
       .tooth{
          width: 33.39px;
          height: 34.67px;
@@ -135,7 +136,6 @@ body{
 .logo-text{
    height: 91px;
    font-family: 'Sofia';
-   font-style: normal;
    font-weight: 400;
    font-size: 38px;
    color: #46b1de;
@@ -159,15 +159,14 @@ a{
    font-weight: 600;
 }
 main{
+   position:relative;
    margin-left: 110px;
    margin-right: 110px;
 }
 h1{
    text-transform: uppercase;
    white-space: pre-line;
-   padding-top: 34px;
-   margin: 0px;
-   font-style: normal;
+   margin-top: 34px;
    font-weight: 700;
    font-size: 40px;
    letter-spacing: 0.1em;
